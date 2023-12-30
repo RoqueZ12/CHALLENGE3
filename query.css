@@ -1,0 +1,32 @@
+/* Ancho máximo de 768px (tablets) */
+@media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr; /* Cambia a una columna */
+    }
+  
+    .card1, .card2 {
+      width: 100%; /* Asegura que las tarjetas ocupen el ancho completo */
+    }
+  
+    /* Ajustes para otros elementos según sea necesario */
+    .card1-info p, .card2-info p {
+      font-size: 0.875rem; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+    }
+  }
+  
+  /* Ancho máximo de 480px (móviles) */
+  @media (max-width: 480px) {
+    .Review-info h1 {
+      font-size: 1.5rem; /* Ajusta el tamaño de fuente del encabezado */
+    }
+  
+    .Review-info p {
+      font-size: 1rem; /* Ajusta el tamaño de fuente del texto */
+    }
+  
+    .list-item p {
+      font-size: 0.75rem; /* Ajusta el tamaño de fuente para ítems de lista en móviles */
+    }
+  
+    /* Ajustes adicionales según sea necesario para pantallas más pequeñas */
+  }
