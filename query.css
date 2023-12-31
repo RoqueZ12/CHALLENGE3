@@ -15,7 +15,7 @@
   }
   
   /* Ancho máximo de 480px (móviles) */
-  @media (max-width: 480px) {
+  @media (max-width: 640px) {
     .Review-info h1 {
       font-size: 1.5rem; /* Ajusta el tamaño de fuente del encabezado */
     }
@@ -28,5 +28,14 @@
       font-size: 0.75rem; /* Ajusta el tamaño de fuente para ítems de lista en móviles */
     }
   
-    /* Ajustes adicionales según sea necesario para pantallas más pequeñas */
+    .card-container{
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card1, .card2{
+      width: 75%;
+      margin: 20px;
+    }
   }
